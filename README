@@ -20,7 +20,7 @@ Notes:
 Calculator 2 and 3 are unimplemented at this stage, they simply return 0
 
 Assumptions:
-    The aggregator will set the weight = 1 if only one input argument is provided, only two names are accepted as inputs, beacuse the second and thrid calculator is unimplemented
+    The aggregator will set the weight = 1 if only one input argument is provided, only two names are accepted as inputs, beacuse the second and thrid calculators are unimplemented
     The aggregator function is called with only one input since only calculator 1 has been implemented, the line 
     // var result             = this.aggregator(classicCompResultNorm,oceanCompResultNorm,dimorphicResultNorm) should be used when the other calculators have been implemented
 
