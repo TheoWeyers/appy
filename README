@@ -1,0 +1,31 @@
+
+
+Installation:
+
+1) Open a terminal in the folder containing the app.js file
+2) Run the command: npm install express
+3) Start the program by running the command: node app.js
+
+* NB Nodejs has to be installed on the PC, can download it from https://nodejs.org/en/download/
+
+Usage:
+
+Make a get request to http://localhost:80/v1/calculateCompatibility
+with parameters
+firstName
+secondName
+
+
+Notes:
+Calculator 2 and 3 are unimplemented at this stage, they simply return 0
+
+Assumptions:
+    The aggregator will set the weight = 1 if only one input argument is provided, only two names are accepted as inputs, beacuse the second and thrid calculator is unimplemented
+    The aggregator function is called with only one input since only calculator 1 has been implemented, the line 
+    // var result             = this.aggregator(classicCompResultNorm,oceanCompResultNorm,dimorphicResultNorm) should be used when the other calculators have been implemented
+
+Future Dev:
+    Implement Calculator 2 and 3
+    Create UI
+    Dockerize the application for easy cloud deployment
+    Implement error logs
